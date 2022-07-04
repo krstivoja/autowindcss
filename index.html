@@ -5,7 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <title>Document</title>
+    <title>utowind CSS</title>
+
+    <meta property="og:title" content=Autowind CSS>
+    <meta property="og:site_name" content=Autowind CSS>
+    <meta property="og:url" content=https://autowindcss.com/>
+    <meta property="og:description" content=Open Source Framework
+    as it should be!>
+    <meta property="og:type" content=product>
+    <meta property="og:image" content=autowind-og.png>
 
 </head>
 <body>
@@ -30,8 +38,8 @@
           <div class="flex items-center justify-between w-full md:w-auto">
             <a href="#" class="flex gap-4 items-center">
               <span class="sr-only">Workflow</span>
-              <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
-              <h3 class="text-xl font-bold">Autowind CSS</h3>
+              <img class="h-16 w-auto " src="autowindcss-logo.svg" alt="">
+              <h3 class="text-3xl font-bold">Autowind CSS</h3>
             </a>
             
           </div>
@@ -40,39 +48,9 @@
         
       </nav>
 
-      <!--
-        Mobile menu, show/hide based on menu open state.
-
-        Entering: "duration-150 ease-out"
-          From: "opacity-0 scale-95"
-          To: "opacity-100 scale-100"
-        Leaving: "duration-100 ease-in"
-          From: "opacity-100 scale-100"
-          To: "opacity-0 scale-95"
-      -->
-      <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-        <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-          <div class="px-5 pt-4 flex items-center justify-between">
-            <div>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
-            </div>
-            <div class="-mr-2">
-              <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                <span class="sr-only">Close main menu</span>
-                <!-- Heroicon name: outline/x -->
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          </div>
-          
-          
-        </div>
-      </div>
     </div>
 
-    <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
+    <main class="mt-16 mx-auto max-w-7xl px-4 pb-16 sm:mt-24 sm:px-6 lg:mt-32 overflow-hidden">
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
           <h1>
@@ -112,9 +90,7 @@
                   </div>
               </form>
               </div>
-
-
-        </div>
+          </div>
 
 
         <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
@@ -140,8 +116,13 @@
             </button>
           </div>
         </div>
-      </div>
+      </div>      
     </main>
+
+    <footer class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
+      <hr class="bg-grey-300">
+      <p class="py-8 text-center">Open Source Framework bilt for community by <a href="https://dplugins.com/" class="text-indigo-600 font-bold">DPlugins</a></p>
+    </footer>
   </div>
 </div>
 
