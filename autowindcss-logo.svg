@@ -3,8 +3,8 @@
     <title>autowindcss-logo</title>
     <defs>
         <radialGradient cx="39.4653953%" cy="100%" fx="39.4653953%" fy="100%" r="68.6455129%" id="radialGradient-1">
-            <stop stop-color="#130688" offset="0%"></stop>
-            <stop stop-color="#7138FF" offset="100%"></stop>
+            <stop stop-color="#5046E5" stop-opacity="0.443441324" offset="0%"></stop>
+            <stop stop-color="#5046E5" offset="100%"></stop>
         </radialGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
